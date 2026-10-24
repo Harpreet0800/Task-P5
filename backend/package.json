@@ -1,0 +1,17 @@
+{
+  "name": "task-p5-newsletter-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the P5 newsletter feature",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "form-data": "^4.0.6",
+    "mailgun.js": "^14.0.0"
+  }
+}
